@@ -3,21 +3,48 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/tom" />
+    <include layout="@layout/item_list" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/abc"
+        android:scaleType="fitXY"
+        android:src="@drawable/scooby" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/tim" />
+        android:layout_weight="0"
+        android:background="#F44336"
+        android:paddingStart="10dp"
+        android:text="this is a text"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/abc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ocean" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#9C27B0"
+        android:paddingStart="10dp"
+        android:text="second text"
+        android:textSize="@dimen/draft_text_size" />
+
+    <MultiAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="@string/tam" />
+        android:background="#E3F2FD"
+        android:paddingStart="10dp"
+        android:hint="@string/edit_text_hint"
+        android:inputType="textAutoComplete" />
 </LinearLayout>

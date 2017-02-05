@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_bg"
+    tools:context="com.example.jihedzaoueli.left.MainActivity">
+
+    <Button
+        android:id="@+id/blubButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/button_text" />
+
+    <TextView
+        android:id="@+id/fist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/text_bg"
+        android:text="@string/draft_text"
+        android:textSize="@dimen/draft_text_size" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fist"
+        android:background="@color/text_bg"
+        android:text="@string/draft_text"
+        android:textSize="@dimen/draft_text_size" />
+
+    <TextView
+        android:id="@+id/thirs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/second"
+        android:background="@color/text_bg"
+        android:text="@string/draft_text"
+        android:textSize="@dimen/draft_text_size" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Hello World!"
+        android:textSize="@dimen/draft_text_size" />
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/second"
+        android:background="@color/text_bg"
+        android:text="@string/draft_text"
+        android:textSize="@dimen/draft_text_size" />
+
+</RelativeLayout>

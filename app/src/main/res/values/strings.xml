@@ -4,4 +4,11 @@
     <string name="tom">Tom!</string>
     <string name="tim">Tim!</string>
     <string name="tam">Tam!</string>
+    <string name="edit_text_hint">text to put</string>
+    <string name="abc">abc</string>
+    <string name="button_text">Button Text</string>
+    <string name="draft_text">draft text</string>
+    <string name="pebble_beach">Pebble Beach</string>
+    <string name="california">California</string>
+    <string name="_10_miles_away">10 miles away</string>
 </resources>

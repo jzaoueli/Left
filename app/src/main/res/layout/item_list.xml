@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/oceanImageViewID"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ocean" />
+
+
+    <TextView
+        android:id="@+id/textone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/oceanImageViewID"
+        android:paddingStart="5dp"
+        android:text="@string/pebble_beach"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/texttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textone"
+        android:layout_toEndOf="@+id/oceanImageViewID"
+        android:paddingStart="5dp"
+        android:text="@string/california"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttwo"
+        android:layout_toEndOf="@+id/oceanImageViewID"
+        android:paddingStart="5dp"
+        android:text="@string/_10_miles_away"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+</RelativeLayout>
