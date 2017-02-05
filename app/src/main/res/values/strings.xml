@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Left</string>
+    <string name="simple_tex">smple text</string>
+    <string name="tom">Tom!</string>
+    <string name="tim">Tim!</string>
+    <string name="tam">Tam!</string>
 </resources>
